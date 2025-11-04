@@ -22,7 +22,8 @@ Buat abstract Shape dengan abstract double area() dan buat Triangle, Rectangle, 
 //Source Code
 //Latihan Kendaraan//
 --Latihan 1--
---Vehicle
+--Vehicle--
+
 package Latihan1;
 
 public class Vehicle {
@@ -33,7 +34,8 @@ public class Vehicle {
     }
 }
 
---Car
+--Car--
+
 package Latihan1;
 
     public class Car extends Vehicle {
@@ -43,7 +45,8 @@ package Latihan1;
     }
 }
 
---Motorcycle
+--Motorcycle--
+
 package Latihan1;
 
     public class Motorcycle extends Vehicle {
@@ -53,7 +56,8 @@ package Latihan1;
     }
 }
 
---Main
+--Main--
+
 package Latihan1;
 
     public class Main {
@@ -74,7 +78,8 @@ package Latihan1;
 }
 
 --Latihan 2--
---Account
+--Account--
+
 package Latihan2;
 public class Account {
     String accNo;
@@ -104,7 +109,8 @@ public class Account {
     }
 }
 
---SavingsAccount
+--SavingsAccount--
+
 package Latihan2;
 
     public class SavingsAccount extends Account {
@@ -126,7 +132,8 @@ package Latihan2;
     }
 }
 
---CheckingAccount
+--CheckingAccount--
+
 package Latihan2;
 
     public class CheckingAccount extends Account {
@@ -153,7 +160,8 @@ package Latihan2;
     }
 }
 
---Main
+--Main--
+
 package Latihan2;
 
    public class Main {
@@ -184,7 +192,8 @@ package Latihan2;
 }
 
 --Latihan 3--
---Shape
+--Shape--
+
 package Latihan3;
 
    public abstract class Shape {
@@ -197,7 +206,8 @@ package Latihan3;
     }
 }
 
---Triangle
+--Triangle--
+
 package Latihan3;
 
     public class Triangle extends Shape {
@@ -215,7 +225,8 @@ package Latihan3;
     }
 }
 
---Rectangle
+--Rectangle--
+
 package Latihan3;
 
     public class Rectangle extends Shape {
@@ -233,7 +244,8 @@ package Latihan3;
     }
 }
 
---Circle
+--Circle--
+
 package Latihan3;
 
     public class Circle extends Shape {
@@ -249,7 +261,8 @@ package Latihan3;
     }
 }
 
---Main
+--Main--
+
 package Latihan3;
 
     public class Main {
